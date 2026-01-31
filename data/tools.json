@@ -1,0 +1,26 @@
+{
+  "tools": [
+    {
+      "id": "t01",
+      "slug": "linkage-demo",
+      "name_ja": "Linkage デモ",
+      "name_en": "Linkage Demo",
+      "description_ja": "ツール配布ハブのデモページです。",
+      "description_en": "Demo entry for the tool hub.",
+      "tags": ["配布", "デモ"],
+      "url": "https://example.com",
+      "updated": "2026-01-31"
+    },
+    {
+      "id": "t02",
+      "slug": "simple-tool",
+      "name_ja": "シンプルツール",
+      "name_en": "Simple Tool",
+      "description_ja": "すぐに使えるシンプルなツール。",
+      "description_en": "A simple tool you can use quickly.",
+      "tags": ["シンプル", "便利"],
+      "url": "https://example.com/simple",
+      "updated": "2026-01-20"
+    }
+  ]
+}

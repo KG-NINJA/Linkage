@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Linkage</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-row">
+        <h1>Linkage</h1>
+        <div class="controls">
+          <input id="search" type="search" placeholder="ツールを検索" aria-label="Search" />
+          <select id="lang-toggle" aria-label="Language">
+            <option value="ja">日本語</option>
+            <option value="en">English</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <div id="tag-container" aria-label="Tags"></div>
+
+    <main>
+      <section id="tool-list" aria-label="Tools"></section>
+      <aside id="tool-detail" aria-label="Tool detail"></aside>
+    </main>
+
+    <footer>
+      Linkage - ツールを見つけて、共有して、すぐに届ける。
+    </footer>
+
+    <script src="./assets/app.js"></script>
+  </body>
+</html>
